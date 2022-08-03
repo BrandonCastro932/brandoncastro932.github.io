@@ -1,6 +1,12 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
 .App {
   text-align: center;
 }
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +17,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.landing-page{
+  margin-top: 100px;
 }
 
 .App-header {

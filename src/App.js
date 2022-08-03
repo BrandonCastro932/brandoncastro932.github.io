@@ -1,13 +1,15 @@
-
-import './App.css';
+import './App.scss';
 import Greetings from './components/Greetings';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+
+
 function App() {
   return (
-    <div className="App">
-     <div>
-     <Greetings></Greetings>
-     </div>
-    </div>
+    <body class='body'>
+      
+      
+    </body>
   );
 }
 
