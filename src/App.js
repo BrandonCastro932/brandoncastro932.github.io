@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Greetings from './components/Greetings'; './components/Greetings.js';
 
+import './App.css';
+import Greetings from './components/Greetings';
 function App() {
   return (
     <div className="App">
+     <div>
      <Greetings></Greetings>
+     </div>
     </div>
   );
 }

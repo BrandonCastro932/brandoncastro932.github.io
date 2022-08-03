@@ -7,12 +7,10 @@ class Greetings extends Component{
 
         }
     }
-    render(){
-        return(
-            <div>
-                <h2>Mi componente de react!</h2>
-            </div>
-
-        )}
+    render() {
+        return (
+            <h1>Hello</h1>
+        );
+      }
 }
-export default Greetings();
+export default Greetings;
