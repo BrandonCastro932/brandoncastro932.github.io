@@ -32,7 +32,7 @@ class Projects extends Component {
                     <p>
                       Simple Twitter-esque Social Webpage <br></br>
                       <br></br>
-                      This is a project made in our first year of college. It
+                      This is a project made in my first year of college. It
                       was about making a Social Nework webpage using Laravel as
                       BackEnd and Reactjs as Front End. The result is a look
                       similar to the one from Twitter, using similar shapes and
@@ -91,7 +91,7 @@ class Projects extends Component {
                     <p>
                       Mobile app to organize your game collection<br></br>
                       <br></br>
-                      MPGC is an app made as a project for our college. It lets
+                      MPGC is an app made as a project for college. It lets
                       the user browse using their phone through a variety of
                       titles, music, screenshots and information about games
                       hosted on a database.
@@ -161,7 +161,7 @@ class Projects extends Component {
                       ></FontAwesomeIcon>
                     </i>
                     <a
-                      href="https://github.com/KillerBunny12/Sistema-FalconSushi"
+                      href="https://github.com/BrandonCastro932/SistemaMLP"
                       target="_blank"
                     >
                       <FontAwesomeIcon

@@ -1,4 +1,5 @@
 import './App.scss';
+import React, { useEffect } from 'react'
 import Greetings from './components/Greetings';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -7,9 +8,12 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 
 function App() {
+  useEffect(() => {
+    document.title = "Brandon Castro Portfolio"
+  }, [])
+
   return (
     <body class='body'>
-      <title>Brandon Castro Porfolio</title>
       <nav className='navbar'><Navbar></Navbar></nav>
       <main className="landing-page">
         <section className= "portfolio-block">
