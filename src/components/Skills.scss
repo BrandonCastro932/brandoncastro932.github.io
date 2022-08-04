@@ -1,0 +1,23 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.contact{
+    
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    offset: 0px;
+    background-color:  rgba(255, 255, 255, 0.35) !important;
+}
+.row{
+    text-align: center;
+    
+}
+
+.contactdata{
+    text-align: center;
+    padding-bottom: 20px;
+}
+

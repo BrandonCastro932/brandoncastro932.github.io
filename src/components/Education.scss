@@ -1,0 +1,53 @@
+$body-bg: rgba(255, 255, 255, 0.45);;
+
+// Import Bootstrap and its default variables
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.portfolio-block.cv .group:not(:first-child) {
+    margin-top: 80px;
+    position: relative;
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .period{
+    text-align: right;
+    
+  }
+  .portfolio-block.cv .group {
+    max-width: 800px;
+    margin: auto;
+  }
+  .organization{
+    
+    max-width: 60%;
+    font-size: 15px;
+    text-align: left;
+  }
+  .about-me{
+    position: relative;
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .bachelor{
+    text-align: left;
+  }
+  .item{
+    margin-top: 20px;
+    background-color:  rgba(255, 255, 255, 0.35) !important;
+  }
+  

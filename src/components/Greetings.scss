@@ -1,4 +1,5 @@
 $body-bg: #ffff;
+$enable-shadows: 'shadow-sm';
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
@@ -10,14 +11,27 @@ $body-bg: #ffff;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    offset: 20px;
+    
     .TitleName{
         margin-top: 500px;
         text-align: center;
+        
     }
     .about-me{
-        margin-left: 250px;
-        margin-right: 250px;
+        position: relative;
+        max-width: 50%;
+        max-height: 50%;
         text-align: center;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .container{
+        border-color: black;
+        
     }
 }
   

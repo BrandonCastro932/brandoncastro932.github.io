@@ -15,11 +15,11 @@ class Greetings extends Component {
           </h2>
           <h4>Fullstack software developer</h4>
         </div>
-        <div className="about-me">
+        <div className="about-me ">
           <p>
             Proactive and personable, aspiring professional software engineer
             and honored student at Castro Carazo University. Collaborative and
-            passionate about programming and strongly interested in working for
+            passionate about programming and currently looking for a job for
             improving my skills.
           </p>
           

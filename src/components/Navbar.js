@@ -15,38 +15,7 @@ class Navbar extends Component {
             <a class="navbar-brand logo" href="#">
               Brandon Castro
             </a>
-            <button
-              class="navbar-toggler"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-            >
-              <span class="visually-hidden">Toggle navigation</span>
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbarNav" class="collapse navbar-collapse">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">
-                    Home
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="projects-grid-cards.html">
-                    Projects
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cv.html">
-                    CV
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="hire-me.html">
-                    Hire me
-                  </a>
-                </li>
-              </ul>
-            </div>
+            
           </div>
         </nav>
       </div>
