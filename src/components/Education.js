@@ -29,8 +29,8 @@ class Education extends Component{
             <div class="item shadow-lg p-3 mb-7 rounded">
                 <div class="row">
                     <div class="col-md-8">
-                        <h3 className="bachelor">Highschool</h3>
-                        <h4 class="organization">Palmares bilingual highschool</h4>
+                        <h3 className="bachelor">High school</h3>
+                        <h4 class="organization">Palmares bilingual high school</h4>
                     </div>
                     <div class="col-md-4"><span class="period"><strong>2013 - 2018</strong></span></div>
                 </div>

@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <body class='body'>
+      <title>Brandon Castro Porfolio</title>
       <nav className='navbar'><Navbar></Navbar></nav>
       <main className="landing-page">
         <section className= "portfolio-block">
