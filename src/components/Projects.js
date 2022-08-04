@@ -20,7 +20,9 @@ class Projects extends Component {
     return (
       <div>
         <div className="container">
-          <div className="row">
+          
+          <div className="wasd row">
+          <h2 className="titlecollege">College projects</h2>
             <div className="col-md-4">
               <div className="card">
                 <div className="img1">
@@ -134,7 +136,7 @@ class Projects extends Component {
             <div className="col-md-4">
               <div className="card">
                 <div className="img1">
-                  <img src="https://i.imgur.com/6Nb9I8T.png"></img>
+                  <img src="https://user-images.githubusercontent.com/68369543/182790282-a35ab9b4-e2a8-41a7-a935-be4981a86dc2.png"></img>
                   <div className="main-text">
                     <h2>Software for Mariscos La Puebla</h2>
                     <p>

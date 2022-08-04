@@ -24,7 +24,7 @@ class Education extends Component{
                     </div>
                     <div class="col-4"><span class="period"><strong>2019 - 2022</strong></span></div>
                 </div>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>
             <div class="item shadow-lg p-3 mb-7 rounded">
                 <div class="row">
@@ -34,7 +34,7 @@ class Education extends Component{
                     </div>
                     <div class="col-md-4"><span class="period"><strong>2013 - 2018</strong></span></div>
                 </div>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>
         </div>
         );

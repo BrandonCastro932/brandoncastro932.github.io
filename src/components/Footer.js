@@ -21,7 +21,7 @@ import {
               <section>
                 <a
                   className="btn btn-link btn-floating btn-lg"
-                  href="#!"
+                  href="https://www.facebook.com/Brandon.Castro.Brenes"
                   role="button"
                 >
                   <FontAwesomeIcon
@@ -32,7 +32,7 @@ import {
   
                 <a
                   className="btn btn-link btn-floating btn-lg"
-                  href="#!"
+                  href="https://www.linkedin.com/in/brandon-castro-brenes-095536203/"
                   role="button"
                 >
                   <FontAwesomeIcon
@@ -43,7 +43,7 @@ import {
   
                 <a
                   className="btn btn-link btn-floating btn-lg"
-                  href="#!"
+                  href="https://github.com/BrandonCastro932"
                   role="button"
                 >
                   <FontAwesomeIcon
@@ -54,7 +54,7 @@ import {
   
                 <a
                   className="btn btn-link btn-floating btn-lg"
-                  href="#!"
+                  href="https://www.instagram.com/brandon_castro12/"
                   role="button"
                 >
                   <FontAwesomeIcon
