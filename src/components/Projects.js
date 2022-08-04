@@ -67,7 +67,7 @@ class Projects extends Component {
                     </i>
 
                     <a
-                      href="https://github.com/KillerBunny12/Etwist"
+                      href="https://github.com/BrandonCastro932/Etwist"
                       target="_blank"
                     >
                       <FontAwesomeIcon
@@ -134,107 +134,13 @@ class Projects extends Component {
             <div className="col-md-4">
               <div className="card">
                 <div className="img1">
-                  <img src="https://camo.githubusercontent.com/72bae8a6f1d58f39b955b00e400c979b7e0a90b037b4e61e4f12ae34c6a9b794/68747470733a2f2f692e696d6775722e636f6d2f3844524e6d714b2e706e67"></img>
-                  <div className="main-text">
-                    <h2>Simple Sonic Platformer Demo</h2>
-                    <p>
-                      This project is a game made in the Unity engine in the
-                      span of aprox. 2 months. The goal of the game is to reach
-                      the end of the stage while collecting rings and defeating
-                      enemies. The game is also both compatible with PC and
-                      Android.
-                    </p>
-                  </div>
-                  <div className="card-end">
-                    <i className="icons">
-                      <FontAwesomeIcon
-                        title="Unity"
-                        className="icons-tech"
-                        size="2x"
-                        icon={faUnity}
-                      ></FontAwesomeIcon>
-                      <FontAwesomeIcon
-                        title="Windows"
-                        className="icons-tech"
-                        size="2x"
-                        icon={faWindows}
-                      ></FontAwesomeIcon>
-                      <FontAwesomeIcon
-                        title="Android"
-                        className="icons-tech"
-                        size="2x"
-                        icon={faAndroid}
-                      ></FontAwesomeIcon>
-                    </i>
-                    <a
-                      href="https://github.com/KillerBunny12/SimpleSonicPlatformerDemo"
-                      target="_blank"
-                    >
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        className="Github"
-                        size="3x"
-                      ></FontAwesomeIcon>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <div className="img1">
-                  <img src="https://i.imgur.com/srlhkqb.png"></img>
-                  <div className="main-text">
-                    <h2>Infinity Pong</h2>
-                    <p>
-                      Circle pong game for Android made in Unity <br></br>
-                      <br></br>
-                      Simple circle pong gme for mobile devices i made as a
-                      hobby project. You control the paddle and make sure the
-                      ball stays inside the boundaries.
-                    </p>
-                  </div>
-                  <div className="card-end">
-                    <i className="icons">
-                      <FontAwesomeIcon
-                        title="Unity"
-                        className="icons-tech"
-                        size="2x"
-                        icon={faUnity}
-                      ></FontAwesomeIcon>
-                      <FontAwesomeIcon
-                        title="Android"
-                        className="icons-tech"
-                        size="2x"
-                        icon={faAndroid}
-                      ></FontAwesomeIcon>
-                    </i>
-                    <a
-                      href="https://github.com/KillerBunny12/InfinityPong"
-                      target="_blank"
-                    >
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        className="Github"
-                        size="3x"
-                      ></FontAwesomeIcon>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card">
-                <div className="img1">
                   <img src="https://i.imgur.com/6Nb9I8T.png"></img>
                   <div className="main-text">
-                    <h2>Falcon Sushi</h2>
+                    <h2>Software for Mariscos La Puebla</h2>
                     <p>
-                      Maintenance app made on WinForms for FalconSushi during an
-                      internship.
+                      Products Management Software for Mariscos La Puebla, developed in C# Windows Forms App and SQL Server.
                       <br></br>
-                      <br></br>
-                      It allows the user to control all inventories and users.
+                      Donated to the company in an intership and supervised by Castro Carazo University.
                     </p>
                   </div>
                   <div className="card-end">
