@@ -6,6 +6,7 @@ import {
     faReact,
   } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faUser } from "@fortawesome/free-regular-svg-icons";
+import { faEgg } from "@fortawesome/free-solid-svg-icons";
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { Component } from "react";
   import "./Footer.scss";
@@ -68,6 +69,19 @@ import { faEnvelope, faUser } from "@fortawesome/free-regular-svg-icons";
                     className="icon"
                     icon={faInstagram}
                   ></FontAwesomeIcon>
+                  
+                </a>
+                <a
+                  className="btn-easter btn-link btn-floating btn-lg"
+                  href="#!"
+                  role="button"
+                >
+                  <FontAwesomeIcon
+                    className="icon-easter"
+                    title="?"
+                    icon={faEgg}
+                  ></FontAwesomeIcon>
+                  
                 </a>
               </section>
             </div>
