@@ -33,9 +33,9 @@ class Projects extends Component {
                       Simple Twitter-esque Social Webpage <br></br>
                       <br></br>
                       This is a project made in my first year of college. It
-                      was about making a Social Nework webpage using Laravel as
-                      BackEnd and Reactjs as Front End. The result is a look
-                      similar to the one from Twitter, using similar shapes and
+                      was about making a social media webpage using Laravel as
+                      BackEnd and ReactJS as Front End. The result is a look
+                      similar to Twitter, using similar shapes and
                       colors.
                     </p>
                   </div>
@@ -140,9 +140,9 @@ class Projects extends Component {
                   <div className="main-text">
                     <h2>Software for Mariscos La Puebla</h2>
                     <p>
-                      Products Management Software for Mariscos La Puebla, developed in C# Windows Forms App and SQL Server.
+                      Business management software for Mariscos La Puebla, developed in C# Windows Forms App and SQL Server.
                       <br></br>
-                      Donated to the company in an intership and supervised by Castro Carazo University.
+                      Donated to the company in an intership supervised by Castro Carazo University.
                     </p>
                   </div>
                   <div className="card-end">

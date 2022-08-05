@@ -26,7 +26,7 @@ function App() {
           <Projects></Projects>
         </section>
         <section className='portfolio-block skills'>
-          <Skills></Skills>
+          
         </section>
       </main>
       <footer>

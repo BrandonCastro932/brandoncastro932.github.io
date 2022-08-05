@@ -5,6 +5,7 @@ import {
     faLinkedin,
     faReact,
   } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faUser } from "@fortawesome/free-regular-svg-icons";
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { Component } from "react";
   import "./Footer.scss";
@@ -18,7 +19,13 @@ import {
         <div className="footer">
           <div className="container">
             <div className="row">
+            <h2 className="title">Contact</h2>
               <section>
+              <h4><FontAwesomeIcon
+                        icon={faEnvelope}
+                        className="icon-contact"
+                        size="1x"
+                      ></FontAwesomeIcon> Email: brandoncastro12331@gmail.com</h4>
                 <a
                   className="btn btn-link btn-floating btn-lg"
                   href="https://www.facebook.com/Brandon.Castro.Brenes"
@@ -69,7 +76,7 @@ import {
             <p>Developed by Brandon Castro</p>
             <p>
               <FontAwesomeIcon icon={faReact} /> Powered by{" "}
-              <a href="https://reactjs.org/"> React</a>
+              <a href="https://reactjs.org/"> ReactJS</a>
             </p>
           </div>
         </div>

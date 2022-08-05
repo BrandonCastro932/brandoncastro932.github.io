@@ -19,7 +19,7 @@ class Education extends Component{
             <div class="item shadow-lg p-3 mb-7 rounded">
                 <div class="row">
                     <div class="col-md-8">
-                        <h3 className="bachelor">Software Engineering Bachelor</h3>
+                        <h3 className="bachelor">Software Engineering</h3>
                         <h4 className="organization">Castro Carazo University</h4>
                     </div>
                     <div class="col-4"><span class="period"><strong>2019 - 2022</strong></span></div>

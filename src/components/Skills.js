@@ -15,8 +15,7 @@ class Skills extends Component{
 
     render(){
         return(
-            <div className="wasd row">
-                
+            <div className="wasd row"> 
                 <div className="contact col-md-6 col-md-offset-3 shadow-lg p-2 mb-5 rounded">
                     <h2 className="title">Contact</h2>
                     <div className="contactdata">
