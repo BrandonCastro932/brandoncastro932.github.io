@@ -71,27 +71,30 @@ import { faEgg } from "@fortawesome/free-solid-svg-icons";
                   ></FontAwesomeIcon>
                   
                 </a>
-                <a
-                  className="btn-easter btn-link btn-floating btn-lg"
-                  href="#!"
-                  role="button"
-                >
-                  <FontAwesomeIcon
-                    className="icon-easter"
-                    title="?"
-                    icon={faEgg}
-                  ></FontAwesomeIcon>
-                  
-                </a>
+
               </section>
             </div>
           </div>
           <div className="footer-end">
+          <a
+                  className="btn-easter btn-link btn-floating btn-lg"
+                  href="https://brandoncastro932.github.io/easter-egg/"
+                  role="button"
+                >
+                  <FontAwesomeIcon
+                    className="icon-easter"
+                    title="Definitely not an easter egg"
+                    icon={faEgg}
+                  ></FontAwesomeIcon>
+                  
+                </a>
+
             <p>Developed by Brandon Castro</p>
             <p>
               <FontAwesomeIcon icon={faReact} /> Powered by{" "}
               <a href="https://reactjs.org/"> ReactJS</a>
             </p>
+
           </div>
         </div>
       );
