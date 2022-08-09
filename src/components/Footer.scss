@@ -15,6 +15,9 @@ color: white;
     margin-top: 20px;
     
 }
+.icon-react{
+    animation: App-logo-spin infinite 10s linear;
+}
 
 .icon-easter:hover{
     /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -68,3 +71,12 @@ color: white;
     padding-top: 15px;
     line-height: 10px;
 } 
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

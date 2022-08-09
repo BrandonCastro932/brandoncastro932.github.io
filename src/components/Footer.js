@@ -91,7 +91,7 @@ import { faEgg } from "@fortawesome/free-solid-svg-icons";
 
             <p>Developed by Brandon Castro</p>
             <p>
-              <FontAwesomeIcon icon={faReact} /> Powered by{" "}
+              <FontAwesomeIcon icon={faReact} className="icon-react" /> Powered by{" "}
               <a href="https://reactjs.org/"> ReactJS</a>
             </p>
 
