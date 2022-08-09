@@ -13,12 +13,12 @@ class Greetings extends Component {
           <h2>
             <strong>Brandon Castro Brenes</strong>
           </h2>
-          <h4>Full stack software developer</h4>
+          <div className="dived"><h4 className="textChange">Full stack software developer..</h4></div>
         </div>
         <div className="about-me ">
-          <p>
+          <p className="me">
             Proactive and personable, aspiring professional software engineer
-            and honor student at Castro Carazo University with 3.6 GPA. Collaborative and
+            and honor student at Castro Carazo University. Collaborative and
             passionate about coding and currently looking for a job to
             improve my skills.
           </p>

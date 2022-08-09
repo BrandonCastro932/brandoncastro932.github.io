@@ -1,12 +1,25 @@
-$body-bg: #ffff;
+$body-bg: #1E1E1E;
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+.navbar{
+  background-color: $body-bg;
+  .navbar-brand{
+    color: white;
+  }
+  .navbar-brand:hover{
+    color: white !important;
+  }
+}
 
 @media (min-width: 576px) {
     .navbar {
       padding-top: 1.2rem;
       padding-bottom: 1.2rem;
+    }
+    .navbar-brand:hover{
+      color: white !important;
     }
   }
   

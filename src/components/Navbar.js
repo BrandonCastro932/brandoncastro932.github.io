@@ -10,9 +10,9 @@ class Navbar extends Component {
   render() {
     return (
       <div className="nav-container">
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark portfolio-navbar gradient">
+        <nav class="navbar navbar-expand-lg fixed-top portfolio-navbar gradient">
           <div class="container">
-            <a class="navbar-brand logo" href="#">
+            <a class="navbar-brand logo">
               Brandon Castro
             </a>
             

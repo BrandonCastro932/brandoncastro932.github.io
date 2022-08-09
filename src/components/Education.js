@@ -22,7 +22,7 @@ class Education extends Component{
                         <h3 className="bachelor">Software Engineering</h3>
                         <h4 className="organization">Castro Carazo University</h4>
                     </div>
-                    <div class="col-4"><span class="period"><strong>2019 - 2022</strong></span></div>
+                    <div class="date col-md-4"><span class="period"><strong>2019 - 2022</strong></span></div>
                 </div>
                 <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>
@@ -32,7 +32,7 @@ class Education extends Component{
                         <h3 className="bachelor">High school</h3>
                         <h4 class="organization">Palmares bilingual high school</h4>
                     </div>
-                    <div class="col-md-4"><span class="period"><strong>2013 - 2018</strong></span></div>
+                    <div class="date col-md-4"><span class="period"><strong>2013 - 2018</strong></span></div>
                 </div>
                 <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>

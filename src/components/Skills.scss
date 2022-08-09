@@ -10,9 +10,7 @@
     text-align: center;
     offset: 0px;
     background-color:  rgba(255, 255, 255, 0.35) !important;
-
 }
-
 
 .skTitle{
     margin-top: 70px;
@@ -22,26 +20,27 @@
     
     max-width: 55% !important;
     margin-top: 20px;
-    text-align: center !important;
-    
-    
+    text-align: center !important  
 }
 
 .skRow{
     align-items: center !important;
     margin-top: 20px !important;
-
 }
 
 .skCol{
-    
     margin-left: 5px;
     margin-right: 5px;
     background-color:  rgba(255, 255, 255, 0.35) !important;
     border-radius: 10px;
     max-height: 45px;
-    
+    transition: transform .2s;
+}
 
+.skCol:hover{
+    background-color:  rgba(29, 29, 29, 0.35) !important;
+    color: white;
+    transform: scale(1.1); 
 }
 
 .skItem{
@@ -50,23 +49,15 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
     .skContainer{
         max-width: 95% !important;
     }
     .skItem {
       font-size: 15px;
+      margin-bottom: 2px;
     }
   }
-.wasd{
-   
-   
-}
-
-.col{
-  
-
-}
 
 .contactdata{
     text-align: center;
