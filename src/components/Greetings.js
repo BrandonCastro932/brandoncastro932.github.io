@@ -18,7 +18,7 @@ class Greetings extends Component {
         <div className="about-me ">
           <p>
             Proactive and personable, aspiring professional software engineer
-            and honored student at Castro Carazo University. Collaborative and
+            and honor student at Castro Carazo University with 3.6 GPA. Collaborative and
             passionate about coding and currently looking for a job to
             improve my skills.
           </p>

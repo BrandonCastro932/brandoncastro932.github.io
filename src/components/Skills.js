@@ -1,36 +1,78 @@
 import { Component } from "react";
-import './Skills.scss';
+import "./Skills.scss";
 import { faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faUser } from "@fortawesome/free-regular-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhone,
+  faSignal,
+  faSignal5,
+} from "@fortawesome/free-solid-svg-icons";
 
-class Skills extends Component{
-    constructor(){
-        super();
-        this.state = {
+class Skills extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
 
-        }
-    }
-
-    render(){
-        return(
-            <div className="wasd row"> 
-                <div className="contact col-md-6 col-md-offset-3 shadow-lg p-2 mb-5 rounded">
-                    <h2 className="title">Contact</h2>
-                    <div className="contactdata">
-                        <h4><FontAwesomeIcon
-                        icon={faEnvelope}
-                        className="icon-contact"
-                        size="1x"
-                      ></FontAwesomeIcon> Email: brandoncastro12331@gmail.com</h4>
-                      
-                    </div>
-                    
-                </div>
+  render() {
+    return (
+      <div className="comp">
+        <h3 className="skTitle">Professional skills</h3>
+        <div class="skContainer container">
+          <div class="skRow row">
+            <div class="skCol col shadow p-1 mb-1 rounded">
+              <h5 className="skItem">C#</h5>
             </div>
-        );
-    }
+            <div class="skCol col shadow p-1 mb-1 rounded">
+            <h5 className="skItem">.NET</h5>
+            </div>
+            <div class="skCol col shadow p-1 mb-1 rounded">
+            <h5 className="skItem">Xamarin Forms</h5>
+            </div>
+          </div>
+
+          <div class="skRow row">
+            <div class="skCol col shadow p-1 mb-1 rounded">
+            <h5 className="skItem">ASP .NET</h5>
+            </div>
+            <div class="skCol col shadow p-1 mb-1 rounded">
+              <h5 className="skItem">Laravel</h5>
+            </div>
+            <div class="skCol col shadow p-1 mb-1 rounded">
+              <h5 className="skItem">SQL Server</h5>
+            </div>
+          </div>
+
+          <div class="skRow row">
+            <div class="skCol col shadow p-1 mb-1 rounded">
+            <h5 className="skItem">MySQL</h5>
+            </div>
+            <div class="skCol col shadow p-1 mb-1 rounded">
+              <h5 className="skItem">HTML5</h5>
+            </div>
+            <div class="skCol col shadow p-1 mb-1 rounded">
+              <h5 className="skItem">CSS</h5>
+            </div>
+          </div>
+
+          <div class="skRow row">
+          <div class="skCol col shadow p-1 mb-1 rounded">
+              <h5 className="skItem">Javascript</h5>
+            </div>
+            <div class="skCol col shadow p-1 mb-1 rounded">
+                <h5 className="skItem">NodeJS</h5>
+            </div>
+            
+            <div class="skCol col shadow p-1 mb-1 rounded">
+              <h5 className="skItem">ReactJS</h5>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Skills;

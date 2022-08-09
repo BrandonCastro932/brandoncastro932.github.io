@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   useEffect(() => {
@@ -21,12 +22,13 @@ function App() {
         <section className='portfolio-block cv'>
           <Education></Education>
         </section>
+        <section className='portfolio-block skills'>
+          <Skills></Skills>
+        </section>
         <section className='portfolio-block prj'>
           <Projects></Projects>
         </section>
-        <section className='portfolio-block skills'>
-          
-        </section>
+
       </main>
       <footer>
       <Footer></Footer>

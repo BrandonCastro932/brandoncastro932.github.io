@@ -22,7 +22,7 @@ class Projects extends Component {
         <div className="container">
           
           <div className="wasd row">
-          <h2 className="titlecollege">College projects</h2>
+          <h2 className="titlecollege">Outstanding university projects</h2>
             <div className="col-md-4">
               <div className="card">
                 <div className="img1">
@@ -30,11 +30,11 @@ class Projects extends Component {
                   <div className="main-text">
                     <h2>Etwist</h2>
                     <p>
-                      Simple Twitter-esque Social Website <br></br>
+                      Simple Twitter-esque social website <br></br>
                       <br></br>
                       This is a project made in my first year of college. It
                       was about making a social media website using Laravel as
-                      BackEnd and ReactJS as Front End. The result is a look
+                      back end and ReactJS as front end. The result is a look
                       similar to Twitter, using similar shapes and
                       colors.
                     </p>

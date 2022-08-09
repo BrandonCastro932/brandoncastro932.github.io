@@ -26,7 +26,7 @@ import { faEgg } from "@fortawesome/free-solid-svg-icons";
                         icon={faEnvelope}
                         className="icon-contact"
                         size="1x"
-                      ></FontAwesomeIcon> Email: brandoncastro12331@gmail.com</h4>
+                      ></FontAwesomeIcon> : brandoncastro12331@gmail.com</h4>
                 <a
                   className="btn btn-link btn-floating btn-lg"
                   href="https://www.facebook.com/Brandon.Castro.Brenes"
