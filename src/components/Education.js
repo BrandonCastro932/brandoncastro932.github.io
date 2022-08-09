@@ -32,7 +32,7 @@ class Education extends Component{
                         <h3 className="bachelor">High school</h3>
                         <h4 class="organization">Palmares bilingual high school</h4>
                     </div>
-                    <div class="date col-md-4"><span class="period"><strong>2013 - 2018</strong></span></div>
+                    <div class="date col-md-4"><span class="period"><strong>2014 - 2018</strong></span></div>
                 </div>
                 <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>
