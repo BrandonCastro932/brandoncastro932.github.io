@@ -20,13 +20,13 @@ import { faEgg } from "@fortawesome/free-solid-svg-icons";
         <div className="footer">
           <div className="container">
             <div className="row">
-            <h2 className="title">Contact</h2>
+            <h4 className="title">Contact</h4>
               <section>
-              <h4><FontAwesomeIcon
+              <h5><FontAwesomeIcon
                         icon={faEnvelope}
                         className="icon-contact"
                         size="1x"
-                      ></FontAwesomeIcon> : brandoncastro12331@gmail.com</h4>
+                      ></FontAwesomeIcon>: brandoncastro12331@gmail.com</h5>
                 <a
                   className="btn btn-link btn-floating btn-lg"
                   href="https://www.facebook.com/Brandon.Castro.Brenes"
