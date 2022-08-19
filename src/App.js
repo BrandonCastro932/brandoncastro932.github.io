@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import WorkExperience from './components/WorkExperience';
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,9 @@ function App() {
         </section>
         <section className='portfolio-block skills'>
           <Skills></Skills>
+        </section>
+        <section>
+          <WorkExperience></WorkExperience>
         </section>
         <section className='portfolio-block prj'>
           <Projects></Projects>

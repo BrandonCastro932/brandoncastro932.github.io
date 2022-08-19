@@ -45,13 +45,29 @@ $body-bg: rgba(255, 255, 255, 0.45);;
   .bachelor{
     text-align: left;
   }
+
   .item{
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     background-color:  rgba(255, 255, 255, 0.35) !important;
     transition: transform .13s;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-name: animate-pop;
   }
+
+  .item2{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:  rgba(255, 255, 255, 0.35) !important;
+    transition: transform .13s;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-name: animate-pop;
+  }
+
 .date{
   max-height: 40px;
   margin-top: 40px !important;
@@ -63,6 +79,10 @@ $body-bg: rgba(255, 255, 255, 0.45);;
   }
 }
   .item:hover{
+
+    transform: scale(1.04); 
+  }
+  .item2:hover{
 
     transform: scale(1.04); 
   }

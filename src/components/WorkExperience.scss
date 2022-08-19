@@ -1,0 +1,65 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.workCol{
+    background-color:  rgba(255, 255, 255, 0.35) !important;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 500px !important;
+    transition: transform .2s;
+    margin-top: 10px !important;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-name: animate-pop;
+    
+}
+
+.workCol:focus-visible{
+    
+}
+
+.workComponent{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.colContent{
+    margin: 5px;
+}
+
+.workCol:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 770px) {
+    .workCol{
+        max-width: 95% !important;
+    }
+}
+
+@keyframes animate-pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .square-animation {
+      animation: wipe-enter 1s 1;
+    }
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}

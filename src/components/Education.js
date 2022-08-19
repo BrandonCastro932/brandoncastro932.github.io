@@ -26,7 +26,7 @@ class Education extends Component{
                 </div>
                 <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>
-            <div class="item shadow-lg p-3 mb-7 rounded">
+            <div class="item2 shadow-lg p-3 mb-7 rounded">
                 <div class="row">
                     <div class="col-md-8">
                         <h3 className="bachelor">High school</h3>
