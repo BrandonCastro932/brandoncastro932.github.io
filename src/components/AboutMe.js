@@ -32,8 +32,8 @@ export default class AboutMe extends Component {
         </div>
         <div className="info">
           <div className="container">
-            <div class="infoRow row">
-              <div class="infoCol col shadow rounded animation fade-left">
+            <div className="infoRow row">
+              <div className="infoCol col shadow rounded animation fade-left">
                 <div className="contactContent">
                 <h5>
                   <FontAwesomeIcon
@@ -129,7 +129,7 @@ export default class AboutMe extends Component {
                 </div>
               </div>
 
-              <div class="infoCol col shadow rounded animation fade-right">
+              <div className="infoCol col shadow rounded animation fade-right">
                 <div className="content">
                 <h5>Collaborative</h5>
                 <h5>Responsible</h5>

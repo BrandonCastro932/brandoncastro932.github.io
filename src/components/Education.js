@@ -12,29 +12,29 @@ class Education extends Component{
 
     render() {
         return (
-            <div class="education group">
-            <div class="heading">
-                <h2 class="text-center"><strong>Education</strong></h2>
+            <div className="education group">
+            <div className="heading">
+                <h2 className="text-center"><strong>Education</strong></h2>
             </div>
-            <div class="item shadow-lg p-3 mb-7 rounded">
-                <div class="row">
-                    <div class="col-md-8">
+            <div className="item shadow-lg p-3 mb-7 rounded">
+                <div className="row">
+                    <div className="col-md-8">
                         <h3 className="bachelor">Software Engineering</h3>
                         <h4 className="organization">Castro Carazo University</h4>
                     </div>
-                    <div class="date col-md-4"><span class="period"><strong>2019 - 2022</strong></span></div>
+                    <div className="date col-md-4"><span class="period"><strong>2019 - 2022</strong></span></div>
                 </div>
-                <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
+                <p className="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>
-            <div class="item2 shadow-lg p-3 mb-7 rounded">
-                <div class="row">
-                    <div class="col-md-8">
+            <div className="item2 shadow-lg p-3 mb-7 rounded">
+                <div className="row">
+                    <div className="col-md-8">
                         <h3 className="bachelor">High school</h3>
-                        <h4 class="organization">Palmares bilingual high school</h4>
+                        <h4 className="organization">Palmares bilingual high school</h4>
                     </div>
-                    <div class="date col-md-4"><span class="period"><strong>2014 - 2018</strong></span></div>
+                    <div className="date col-md-4"><span class="period"><strong>2014 - 2018</strong></span></div>
                 </div>
-                <p class="text-muted">Palmares, Alajuela, Costa Rica</p>
+                <p className="text-muted">Palmares, Alajuela, Costa Rica</p>
             </div>
         </div>
         );

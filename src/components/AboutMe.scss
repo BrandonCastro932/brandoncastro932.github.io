@@ -59,6 +59,7 @@
     background-color:  rgba(255, 255, 255, 0.616) !important;
     margin: 5px;
     display: block;
+    transition: transform .2s;
     .contactContent{
         margin-top: 10px !important;
         margin-bottom: 10px !important;
@@ -68,8 +69,12 @@
         margin-top: 10px !important;
     }
     .content{
-        margin-top: 10px !important
+        margin-top: 10px !important;
+
     }
+}
+.infoCol:hover{
+    transform: scale(1.1); 
 }
 
 .infoRow{
