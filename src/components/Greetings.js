@@ -17,7 +17,7 @@ class Greetings extends Component {
         </div>
         <div className="about-me ">
           <p className="me">
-            Proactive and personable, costa rican junior software engineer
+            Proactive and personable, aspiring professional software engineer
             and honor student at Castro Carazo University. Collaborative and
             passionate about coding and currently looking for a job to
             improve my skills.

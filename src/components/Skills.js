@@ -1,13 +1,5 @@
 import { Component } from "react";
 import "./Skills.scss";
-import { faGithub, faReact } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faUser } from "@fortawesome/free-regular-svg-icons";
-import {
-  faPhone,
-  faSignal,
-  faSignal5,
-} from "@fortawesome/free-solid-svg-icons";
 
 class Skills extends Component {
   constructor() {
@@ -18,7 +10,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="comp">
-        <h3 className="skTitle">Professional skills</h3>
+        <h3 className="skTitle"><strong>Professional skills</strong></h3>
         <div class="skContainer container">
           <div class="skRow row">
             <div class="skCol col shadow p-1 mb-1 rounded">

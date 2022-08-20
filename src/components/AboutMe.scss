@@ -1,0 +1,111 @@
+.aboutMeContainer{
+    margin-top: 50px !important;
+    text-align: center;
+    max-width: 40%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    h5{
+        font-weight: normal;
+    }
+}
+
+.socialIcon{
+    max-width: 40% !important;
+}
+.aboutTitle{
+    text-align: left !important;
+}
+.personalTitle{
+    text-align: left !important;
+}
+.icon{
+    color: black;
+}
+.socialTitle{
+    margin-left: -10px;
+    text-align: left !important;
+}
+.animation.fade-left{
+    animation: fade-left 0.5s ease-in;
+}
+@keyframes fade-left {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+.animation.fade-right{
+    animation: fade-right 0.5s ease-in;
+}
+@keyframes fade-right {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.infoCol{
+    background-color:  rgba(255, 255, 255, 0.616) !important;
+    margin: 5px;
+    display: block;
+    .contactContent{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .socialCont{
+        display: inline-block;
+        margin-top: 10px !important;
+    }
+    .content{
+        margin-top: 10px !important
+    }
+}
+
+.infoRow{
+    text-align: left !important;
+    
+}
+
+@media screen and (max-width: 770px) {
+    .aboutMeContainer{
+        max-width: 90%;
+    }
+    .infoCol{
+        h5{
+            font-size: 13px;
+        }
+        
+    }
+    .socialIcon{
+        max-width: 20% !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .aboutMeContainer{
+        max-width: 90%;
+    }
+    .infoCol{
+        h5{
+            font-size: 13px;
+        }
+        .content{
+            margin-top: 50px !important;
+        }
+    }
+    .socialIcon{
+        max-width: 50% !important;
+    }
+}
+

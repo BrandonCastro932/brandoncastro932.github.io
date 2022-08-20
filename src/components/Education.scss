@@ -20,6 +20,7 @@ $body-bg: rgba(255, 255, 255, 0.45);;
   }
   .period{
     text-align: right;
+    margin-left: 50px;
   }
   .portfolio-block.cv .group {
     max-width: 800px;
@@ -50,7 +51,7 @@ $body-bg: rgba(255, 255, 255, 0.45);;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color:  rgba(255, 255, 255, 0.35) !important;
+    background-color:  rgba(255, 255, 255, 0.616) !important;
     transition: transform .13s;
     animation-duration: 0.5s;
     animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
@@ -61,9 +62,10 @@ $body-bg: rgba(255, 255, 255, 0.45);;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color:  rgba(255, 255, 255, 0.35) !important;
+    background-color:  rgba(255, 255, 255, 0.616) !important;
     transition: transform .13s;
     animation-duration: 0.8s;
+    animation-direction: normal;
     animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
     animation-name: animate-pop;
   }
@@ -76,6 +78,10 @@ $body-bg: rgba(255, 255, 255, 0.45);;
 @media screen and (max-width: 770px) {
   .date{
     margin-top: 0px !important;
+  }
+  .period{
+    
+    margin-left: 0px;
   }
 }
   .item:hover{

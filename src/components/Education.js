@@ -14,7 +14,7 @@ class Education extends Component{
         return (
             <div class="education group">
             <div class="heading">
-                <h2 class="text-center">Education</h2>
+                <h2 class="text-center"><strong>Education</strong></h2>
             </div>
             <div class="item shadow-lg p-3 mb-7 rounded">
                 <div class="row">

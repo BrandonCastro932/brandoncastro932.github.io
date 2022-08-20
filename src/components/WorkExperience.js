@@ -12,7 +12,7 @@ class WorkExperience extends Component {
 
     return (
       <div className="workComponent">
-        <h3>Work experience</h3>
+        <h3><strong>Work experience</strong></h3>
         <div className="workContainer container">
           <div className="row justify-content-center">
             <div className="workCol square-animation col shadow p-1 mb-1 rounded">

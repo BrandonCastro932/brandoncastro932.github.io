@@ -4,10 +4,9 @@ import {
   faLaravel,
   faReact,
   faSass,
-  faUnity,
   faWindows,
 } from "@fortawesome/free-brands-svg-icons";
-import { faA, faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faServer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Component } from "react";
 import "./Projects.scss";
@@ -22,11 +21,11 @@ class Projects extends Component {
         <div className="container">
           
           <div className="wasd row">
-          <h2 className="titlecollege">Outstanding university projects</h2>
+          <h2 className="titlecollege"><strong>Outstanding university projects</strong></h2>
             <div className="col-md-4">
               <div className="card">
                 <div className="img1">
-                  <img src="https://user-images.githubusercontent.com/68369543/171981569-d999caa8-1c1e-428e-9fb3-b32919a69c1f.png"></img>
+                  <img src="https://user-images.githubusercontent.com/68369543/171981569-d999caa8-1c1e-428e-9fb3-b32919a69c1f.png" alt="project"></img>
                   <div className="main-text">
                     <h2>Etwist</h2>
                     <p>
@@ -85,7 +84,7 @@ class Projects extends Component {
             <div className="col-md-4">
               <div className="card">
                 <div className="img1">
-                  <img src="https://i.imgur.com/FUCFw3l.png"></img>
+                  <img src="https://i.imgur.com/FUCFw3l.png" alt="project"></img>
                   <div className="main-text">
                     <h2>My Pocket Game Collection</h2>
                     <p>
@@ -136,7 +135,7 @@ class Projects extends Component {
             <div className="col-md-4">
               <div className="card">
                 <div className="img1">
-                  <img src="https://user-images.githubusercontent.com/68369543/182790282-a35ab9b4-e2a8-41a7-a935-be4981a86dc2.png"></img>
+                  <img src="https://user-images.githubusercontent.com/68369543/182790282-a35ab9b4-e2a8-41a7-a935-be4981a86dc2.png" alt="project"></img>
                   <div className="main-text">
                     <h2>Software for Mariscos La Puebla</h2>
                     <p>
