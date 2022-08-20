@@ -13,7 +13,9 @@
 }
 
 .socialIcon{
-    max-width: 40% !important;
+    max-width: 20% !important;
+    padding: 0;
+    margin-left: 5px;
 }
 .aboutTitle{
     text-align: left !important;
@@ -94,6 +96,7 @@
     }
     .socialIcon{
         max-width: 20% !important;
+        margin-left: 0;
     }
 }
 
@@ -111,6 +114,7 @@
     }
     .socialIcon{
         max-width: 50% !important;
+        margin-left: 0;
     }
 }
 
