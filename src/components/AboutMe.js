@@ -64,9 +64,7 @@ export default class AboutMe extends Component {
                 <div className="socialCont container">
                   <div className="row">
                     <div className="socialTitle col">
-                      <h5>
-                        <strong>Social media:</strong>
-                      </h5>
+                      
                     </div>
                   </div>
                   <div className="socialMedia row">
