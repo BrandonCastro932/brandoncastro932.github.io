@@ -18,14 +18,10 @@ export default class AboutMe extends Component {
           <div className="container">
             <div className="row">
               <div className="col">
-                <h3 className="aboutTitle">
-                  <strong>Contact</strong>
-                </h3>
+                
               </div>
               <div className="col">
-                <h3 className="personalTitle">
-                  <strong>Personal skills</strong>
-                </h3>
+                
               </div>
             </div>
           </div>
@@ -35,6 +31,9 @@ export default class AboutMe extends Component {
             <div className="infoRow row">
               <div className="infoCol col shadow rounded animation fade-left">
                 <div className="contactContent">
+                <h3 className="aboutTitle">
+                  <strong>Contact</strong>
+                </h3>
                 <h5>
                   <FontAwesomeIcon
                     icon={faCakeCandles}
@@ -129,6 +128,9 @@ export default class AboutMe extends Component {
 
               <div className="infoCol col shadow rounded animation fade-right">
                 <div className="content">
+                <h3 className="personalTitle">
+                  <strong>Personal skills</strong>
+                </h3>
                 <h5>Collaborative</h5>
                 <h5>Responsible</h5>
                 <h5>Self-motivated</h5>

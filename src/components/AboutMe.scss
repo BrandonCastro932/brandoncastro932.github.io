@@ -104,12 +104,15 @@
     .aboutMeContainer{
         max-width: 90%;
     }
+    .personalTitle{
+        font-size: 17px !important;
+    }
     .infoCol{
         h5{
             font-size: 13px;
         }
         .content{
-            margin-top: 50px !important;
+            //margin-top: 50px !important;
         }
     }
     .socialIcon{
