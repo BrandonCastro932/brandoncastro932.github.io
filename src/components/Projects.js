@@ -132,47 +132,7 @@ class Projects extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="card">
-                <div className="img1">
-                  <img src="https://user-images.githubusercontent.com/68369543/182790282-a35ab9b4-e2a8-41a7-a935-be4981a86dc2.png" alt="project"></img>
-                  <div className="main-text">
-                    <h2>Software for Mariscos La Puebla</h2>
-                    <p>
-                      Business management software for Mariscos La Puebla, developed in C# Windows Forms App and SQL Server.
-                      <br></br>
-                      Donated to the company in an intership supervised by Castro Carazo University.
-                    </p>
-                  </div>
-                  <div className="card-end">
-                    <i className="icons">
-                      <FontAwesomeIcon
-                        title="Windows Forms"
-                        className="icons-tech"
-                        size="2x"
-                        icon={faWindows}
-                      ></FontAwesomeIcon>
-                      <FontAwesomeIcon
-                        title="SQL Server"
-                        className="icons-tech"
-                        size="2x"
-                        icon={faDatabase}
-                      ></FontAwesomeIcon>
-                    </i>
-                    <a
-                      href="https://github.com/BrandonCastro932/SistemaMLP"
-                      target="_blank"
-                    >
-                      <FontAwesomeIcon
-                        icon={faGithub}
-                        className="Github"
-                        size="3x"
-                      ></FontAwesomeIcon>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

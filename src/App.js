@@ -30,14 +30,14 @@ function App() {
         <section className='portfolio-block skills'>
           <Skills></Skills>
         </section>
-        {/* 
+         
         
-          Cuando ya entre a bretear agregar
+          
           <section>
           <WorkExperience></WorkExperience>
           </section>
         
-        */}
+        
         <section className='portfolio-block prj'>
           <Projects></Projects>
         </section>

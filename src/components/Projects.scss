@@ -2,6 +2,12 @@ $Background-color: #2d2d30;
 $footer-color: #252526;
 $Text-color: white;
 
+
+.wasd{
+    display: flex !important;
+    justify-content: center;
+}
+
 .card{
   margin-top: 20px;
     box-shadow: 0 0 30px black;

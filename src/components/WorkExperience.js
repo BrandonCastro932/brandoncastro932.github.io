@@ -11,36 +11,58 @@ class WorkExperience extends Component {
   render() {
 
     return (
-      <div className="workComponent">
-        <h3><strong>Work experience</strong></h3>
-        <div className="workContainer container">
-          <div className="row justify-content-center">
-            <div className="workCol square-animation col shadow p-1 mb-1 rounded">
-              <div className="colContent">
-                <h4>Software Enterprice Services</h4>
-                <h6>Location: Lima, Perú</h6>
-                <p>
-                  Working as a remote Software Engineer intern for Software Enterprice
-                  Services
-                </p>
-                <h5>August, 2022 - Actual</h5>
-                
+     <div className="container">
+       <div className="title">
+        <h2 className="text-center"><strong>Work experience</strong></h2>
+      </div>
+      <div className="cards row">
+     
+      <div className="col-md-4">
+              <div className="card">
+                <div className="img1">
+                  <img src="https://user-images.githubusercontent.com/68369543/182790282-a35ab9b4-e2a8-41a7-a935-be4981a86dc2.png" alt="project"></img>
+                  <div className="main-text">
+                  <h2>Software for Mariscos La Puebla</h2>
+                    <h5>Worked as:</h5>
+                    <p>
+                      <strong>Freelance Software Developer</strong> <br></br>
+                      <br></br>
+                      <strong>Responsabilities:</strong>
+                      <br></br>
+                      Design, coding, deploying, support and maintenance of a business software for the company.
+                    </p>
+                    <h5 className="fromDate">From January, 2022 - May, 2022</h5>
+                  </div>
+                  <div className="card-end">
+                    
+                  </div>
+                </div>
               </div>
             </div>
-           {/* 
-             For adding more jobs to this column, just add two more divs
-            <div className="workCol col shadow p-1 mb-1 rounded">
-              <h3>Work 2</h3>
+            
+            <div className="col-md-4">
+              <div className="card">
+                <div className="img1">
+                  <img src="https://ii.ct-stc.com/3/logos/empresas/2018/01/25/software-enterprise-services-sac-FEB7B315BD2564ED165020899thumbnail.png" alt="project"></img>
+                  <div className="main-text">
+                    <h2>Software Enterprise Services</h2>
+                    <h5>Currently working as:</h5>
+                    <p>
+                      <strong>RPGLE, Java & .NET intern Developer</strong> <br></br>
+                      <br></br>
+                      <strong>Responsabilities:</strong>
+                      <br></br>
+                      Coding, support and maintenance of eIBS banking systems in Costa Rica, Ecuador and Peru.
+                    </p>
+                    <h5 className="fromDate">From August, 2022 - Actual</h5>
+                  </div>
+                  
+                </div>
+              </div>
             </div>
 
-            <div className="workCol col shadow p-1 mb-1 rounded">
-              <h3>Work 3</h3>
-            </div>
-           
-           */}
-          </div>
-        </div>
-      </div>
+      </div>    
+     </div>
     );
   }
 }

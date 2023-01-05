@@ -19,8 +19,7 @@ class Greetings extends Component {
           <p className="me">
             Proactive and personable, aspiring professional software engineer
             and honor student at Castro Carazo University. Collaborative and
-            passionate about coding and currently looking for a job to
-            improve my skills.
+            passionate about coding and currently open for new opportunities.
           </p>
           
         </div>

@@ -20,7 +20,7 @@ class Skills extends Component {
             <h5 className="skItem">.NET</h5>
             </div>
             <div className="skCol col shadow p-1 mb-1 rounded">
-            <h5 className="skItem">Xamarin Forms</h5>
+            <h5 className="skItem">RPGLE</h5>
             </div>
           </div>
 
