@@ -29,7 +29,7 @@ class WorkExperience extends Component {
                       <br></br>
                       <strong>Responsabilities:</strong>
                       <br></br>
-                      Design, coding, deploying, support and maintenance of a business software for the company.
+                      Design, coding, deploy, support and maintenance of a business software for the company.
                     </p>
                     <h5 className="fromDate">From January, 2022 - May, 2022</h5>
                   </div>
